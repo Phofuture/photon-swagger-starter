@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log/slog"
 
-	"github.com/dennesshen/photon-core-starter/bean"
+	"github.com/Phofuture/photon-core-starter/bean"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/swagger"

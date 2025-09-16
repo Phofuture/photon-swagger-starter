@@ -1,4 +1,4 @@
-module github.com/dennesshen/photon-swagger-starter
+module github.com/Phofuture/photon-swagger-starter
 
 go 1.23.0
 
@@ -7,7 +7,7 @@ require (
 	github.com/gofiber/swagger v1.1.1
 )
 
-require github.com/dennesshen/photon-core-starter v1.0.4
+require github.com/Phofuture/photon-core-starter v0.0.0-20250916060707-12acf34d9318
 
 require (
 	github.com/KyleBanks/depth v1.2.1 // indirect

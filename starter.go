@@ -1,8 +1,8 @@
 package swaggerStarter
 
 import (
-	"github.com/dennesshen/photon-core-starter/core"
-	"github.com/dennesshen/photon-swagger-starter/swagger"
+	"github.com/Phofuture/photon-core-starter/core"
+	"github.com/Phofuture/photon-swagger-starter/swagger"
 )
 
 func init() {
