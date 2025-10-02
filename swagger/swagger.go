@@ -28,7 +28,7 @@ func Start(ctx context.Context) error {
 	info := fmt.Sprintf("swagger inint, context-path: %s", contextPath)
 	slog.InfoContext(ctx, info)
 	component.Server.Static(fmt.Sprintf("%s/swagger/swagger.json", contextPath), config.Swagger.DirectoryPath+"/swagger.json")
-	component.Server.Static(fmt.Sprintf("%s/swagger/swagger.yaml", contextPath), config.Swagger.DirectoryPath+"/swagger.json")
+	component.Server.Static(fmt.Sprintf("%s/swagger/swagger.yaml", contextPath), config.Swagger.DirectoryPath+"/swagger.yaml")
 	component.Server.Get(fmt.Sprintf("%s/swagger/*", contextPath), swagger.New(swagger.Config{
 		URL:         "swagger.yaml",
 		DeepLinking: true,
